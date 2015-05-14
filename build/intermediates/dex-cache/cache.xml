@@ -2,39 +2,172 @@
 <items version="2" >
 
     <item
-        jar="/home/haxorware/git/gcm_test_excel/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/home/harikishen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="/home/haxorware/git/gcm_test_excel/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-0e145e76f8254fbb6eb03ae954cc4d0019626088.jar" />
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a44f80b3f0ef42916dae054eb3d2ee3d70cd16a0.jar" />
     </item>
     <item
-        jar="/home/haxorware/git/gcm_test_excel/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="/home/haxorware/git/gcm_test_excel/app/build/intermediates/pre-dexed/debug/classes-8a096c677368e24013ff2ca9d8664e2181e01a11.jar" />
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-f9601fc8a769b9c9c847aa3944586c3969eeee4e.jar" />
     </item>
     <item
-        jar="/home/haxorware/git/gcm_test_excel/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="/home/haxorware/git/gcm_test_excel/app/build/intermediates/pre-dexed/debug/classes-a5df7faca700e3e096e56dad0091d2cbe6c76e91.jar" />
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-22050c162fa75cd3f279d68ae12a3c5687d8a7d5.jar" />
     </item>
     <item
-        jar="/home/haxorware/Documents/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="/home/haxorware/git/gcm_test_excel/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-4118dd63156aa0576d39ac3e8aff2459235271b7.jar" />
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-b683be30008168435c788f9e92bae75625deaa49.jar" />
     </item>
     <item
-        jar="/home/haxorware/git/gcm_test_excel/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="/home/haxorware/git/gcm_test_excel/app/build/intermediates/pre-dexed/debug/classes-243252d88cfdb564a69de04babc766d2ce595ef2.jar" />
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-bb9e8d1c7c0886812379dc8ad9c262c8e78994c3.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-a5f2038b1312d0856d5d728c1814d70518fafd55.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-aa22717db8eb9fae0d2f0f237b402fc44607c6eb.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-978a490208484f2d27c3a3aaa2704181dc135c54.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-baba5968e275f3529a35e70a55a094ef9c11294e.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-543a51a80d5487134bb416ce4fc6d9cb8f08a824.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-2152fc3b7112b63604a76afc8a0400d3f64faa84.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-cec4eedc4d035867eff7d7aef8813b1093d0459b.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-3ecd3a3013b8d179fadb85817f0eb4f77ba10269.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-11c373d2785e5ec6620dcdda42546f3c588ea733.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-460d35ef30c797f83add8b4357899dbc3cf89104.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-56f31e1889cf3365aee55f3c44660ae89e4a14ad.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-3b2a9ff74805700797e8fa22f542408dc7c27c3e.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-fa68fc915eebfa1afbe95f620266f7deff260318.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-ffac4e38c0d4cf5fd1075007b7bdc345bde4fcd0.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-113af76410d65046512accbb4180f8048e83d366.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-51797d958f23dbe676e413a3979f9f8ffcdbf1b7.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-58103d0233467b2ea2956c39476b3535d2eef004.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-a26918959b5b83c6669ee4bf691dc16dc12861cb.jar" />
+    </item>
+    <item
+        jar="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/harikishen/AndroidStudioProjects/Excel_GCM_App/app/build/intermediates/pre-dexed/debug/classes-55f1ba8d987f3ca461c9a91238c50c232eccf3ec.jar" />
     </item>
 
 </items>
