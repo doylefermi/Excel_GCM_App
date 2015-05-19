@@ -88,7 +88,7 @@ public class MainActivity extends ActionBarActivity {
 		Account[] accounts = AccountManager.get(this).getAccounts();
 
 		acc= accounts[0].name;
-        Log.d("Account", "Name " + name);
+        Log.d("Account", "Name " + nam);
         accn=acc.substring(0, acc.indexOf('@'));
 
         nam=(EditText)findViewById(R.id.name); nam.setText(accn);
@@ -293,26 +293,15 @@ public class MainActivity extends ActionBarActivity {
                     StringBuilder bodyBuilder = new StringBuilder();
                     Iterator<Entry<String, String>> iterator = params.entrySet().iterator();
                     // constructs the POST body using the parameters
-
-
-                    bodyBuilder.append('{');
                     while (iterator.hasNext()) {
-                        bodyBuilder.append('"');
                         Entry<String, String> param = iterator.next();
-                        bodyBuilder.append(param.getKey()).append('"').append(':');
-                        bodyBuilder.append('"').append(param.getValue());
-                        bodyBuilder.append('"');
+                        bodyBuilder.append(param.getKey()).append('=')
+                                .append(param.getValue());
                         if (iterator.hasNext()) {
-                            bodyBuilder.append(',');
+                            bodyBuilder.append('&');
                         }
                     }
-                    bodyBuilder.append('}');
-
-
-
-
                     String body = bodyBuilder.toString();
-                    //Toast.makeText(getApplicationContext(), "JSON=" + body,       Toast.LENGTH_LONG).show();
                     Log.v(TAG, "Posting '" + body+ "' to " + url);
                     byte[] bytes = body.getBytes();
                     HttpURLConnection conn = null;
@@ -342,7 +331,7 @@ public class MainActivity extends ActionBarActivity {
                 }
 
                 protected void onPostExecute(String msg) {
-                	setContentView(R.layout.activity_gcm_broadcast_receiver);
+                	//setContentView(R.layout.activity_gcm_broadcast_receiver);
                     mDisplay.append(msg + "\n");
                     mDisplay.setText(msg);
                 }
