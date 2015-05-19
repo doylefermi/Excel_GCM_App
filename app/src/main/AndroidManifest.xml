@@ -53,6 +53,12 @@
             android:name=".GcmBroadcastReceiver"
             android:label="@string/title_activity_gcm_broadcast_receiver" >
         </activity>
-           </application>
+
+        <activity
+            android:name=".lap_gcm"
+            android:label="lap" >
+        </activity>
+
+    </application>
 
 </manifest>

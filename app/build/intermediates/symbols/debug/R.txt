@@ -455,12 +455,13 @@ int id action_menu_presenter 0x7f090003
 int id action_mode_bar 0x7f090043
 int id action_mode_bar_stub 0x7f090042
 int id action_mode_close_button 0x7f090035
-int id action_settings 0x7f090059
+int id action_settings 0x7f09005a
 int id activity_chooser_view_content 0x7f090036
 int id adjust_height 0x7f090017
 int id adjust_width 0x7f090018
 int id always 0x7f09001c
 int id beginning 0x7f090014
+int id body 0x7f090059
 int id book_now 0x7f09002c
 int id buyButton 0x7f090029
 int id buy_now 0x7f09002d
@@ -561,7 +562,8 @@ int layout abc_simple_dropdown_hint 0x7f030015
 int layout activity_gcm_broadcast_receiver 0x7f030016
 int layout activity_gcmnotification_intent_service 0x7f030017
 int layout activity_main 0x7f030018
-int layout support_simple_spinner_dropdown_item 0x7f030019
+int layout history 0x7f030019
+int layout support_simple_spinner_dropdown_item 0x7f03001a
 int menu gcm_broadcast_receiver 0x7f0d0000
 int menu gcmnotification_intent 0x7f0d0001
 int menu main 0x7f0d0002

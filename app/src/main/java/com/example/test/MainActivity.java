@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -36,6 +37,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,7 +51,7 @@ public class MainActivity extends ActionBarActivity {
     private static final String PROPERTY_APP_VERSION = "appVersion";
     static final String DISPLAY_MESSAGE_ACTION="com.example.test.DISPLAY_MESSAGE";
     static final String SERVER_URL = "http://exceltest.comuv.com/register.php";
-    //static final String SERVER_URL = "http://doylefermi.x20.in/register.php";
+   //static final String SERVER_URL = "http://doylefermi.x20.in/register.php";
     private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     public static String acc = "";
     public String msg = "";
@@ -114,6 +118,7 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+
         device_info=accn+"\n"+acc+"\n"+sim_operator_Name+"\n"+droid_version+"\n"+phone_no+"\n"+phone_dpi+"\n"+phone_manuf+" "+phone_model ;
 
 		context = getApplicationContext();
@@ -160,18 +165,16 @@ public class MainActivity extends ActionBarActivity {
                         setContentView(R.layout.activity_gcmnotification_intent_service);
                         Toast.makeText(getApplicationContext(), "Device registered, registration ID=" + regid,
                                 Toast.LENGTH_LONG).show();
-       /* PackageManager p = getPackageManager();
-        p.setComponentEnabledSetting(getComponentName(), PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);*/
-                    }
+
+                   }
 
 
                 }
             });
 
-            //Intent intent=new Intent(this, GcmBroadcastReceiver.class);
-            //startActivity(intent);
 
-            //g.onReceive(this,);
+
+
         }
 	}
         private String getRegistrationId(Context context) {
@@ -239,7 +242,7 @@ public class MainActivity extends ActionBarActivity {
                     params.put("regId", regid);
                     params.put("name",name);
                     params.put("email",email);
-                         params.put("sim_name",sim_operator_Name);
+                        params.put("sim_name",sim_operator_Name);
                          params.put("android_version",droid_version);
                          params.put("phone_no",phone_no);
                          params.put("dpi",phone_dpi);

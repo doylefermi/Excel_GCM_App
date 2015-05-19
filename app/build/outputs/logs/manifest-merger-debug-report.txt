@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 		INJECTED from AndroidManifest.xml:0:0
@@ -11,8 +13,6 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:4:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
 MERGED from com.android.support:support-v4:22.0.0:20:5
@@ -275,6 +275,12 @@ ADDED from AndroidManifest.xml:52:9
 		ADDED from AndroidManifest.xml:54:13
 	android:name
 		ADDED from AndroidManifest.xml:53:13
+activity#com.example.test.lap_gcm
+ADDED from AndroidManifest.xml:57:9
+	android:label
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
 meta-data#com.google.android.gms.version
 ADDED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
@@ -303,7 +309,7 @@ MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
 MERGED from com.google.android.gms:play-services-base:7.3.0:21:9
-	android:value
-		ADDED from com.google.android.gms:play-services-base:7.3.0:23:13
 	android:name
 		ADDED from com.google.android.gms:play-services-base:7.3.0:22:13
+	android:value
+		ADDED from com.google.android.gms:play-services-base:7.3.0:23:13
